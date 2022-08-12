@@ -1,0 +1,1 @@
+Hold Control, Shift, and R keys down together to run the current file

@@ -1,0 +1,1 @@
+Write a program with a function that accepts a string as an argument and returns a copy of the string with the first character of each sentence is capitalized. The program should let the user to enter a string and then pass it to the function. The modified string should be displayed.
