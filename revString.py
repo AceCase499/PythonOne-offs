@@ -1,18 +1,13 @@
-def revString(str, n):
-    chrs = 0
-    for i in str:
-        chrs += 1
+def revString(textt, rev):
+    if textt == "":
+        return rev
 
-    if n == chrs:
-        return
-    else:
-        revString(str, n+1)
-    print(str[n])
+    erse = textt[0] + rev
+    return revString(textt[1:], erse)
 
 
 def main():
-
-    print(revString("Elephant", 0))
+    print(revString("Octopus", ""))
 
 
 main()
